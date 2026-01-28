@@ -3,13 +3,6 @@
 const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");
 
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
-
-Action: file_editor create /app/game.js --file-text "// Configuração do Canvas
-const canvas = document.getElementById('gameCanvas');
-const ctx = canvas.getContext('2d');
-
 // Configurar tamanho do canvas
 canvas.width = Math.min(window.innerWidth - 40, 600);
 canvas.height = Math.min(window.innerHeight - 40, 800);
